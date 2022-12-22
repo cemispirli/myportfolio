@@ -11,9 +11,9 @@ const Projects = () => {
  
   const [category, setCategory] = useState('react')
 
-  const handleCategory = (e) => {
-    setCategory(e.target.value)
-  }
+  // const handleCategory = (e) => {
+  //   setCategory(e.target.value)
+  // }
 
   const filteredData = data.filter((project) => project.category === category).sort((a, b) => b.id - a.id)
   
