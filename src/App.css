@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+}
+.header-color {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+/*Scroll Button Css*/
+.scroll-button{
+  position: fixed;
+  opacity: 0.3;
+  right: 15px;
+  bottom: 80px;
+  height: 20px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  color: #0648ff;
+}
+.scroll-button:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* home page css */
+.home-div{
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height:100vh;
+  max-height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.home{
+  margin: 0;
+  padding: 0;
+}
+.avatar-img {
+  height: 150px;
+  margin-bottom: 1em;
+  border-radius: 50%;
+}
+.banner-text {
+  background-color: rgba(0, 0, 0, 0.484);
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+.banner-text h1 {
+  font-weight: bold;
+  color: #ffffff99;
+  margin: 1rem;
+}
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 75%;
+  margin: auto;
+}
+.banner-text p {
+  color: #ffffff99;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em 1em 1em 1em;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  margin: auto;
+}
+.social-icon{
+  height: 100%;
+  margin-inline: 1em;
+  margin-bottom: 1em;
+} 
+
+/* contact page css */
+.contact-body {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-container {
+  background-color: rgba(0, 0, 0, 0.484);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  height: 65%;
+  padding-top: 1em;
+  margin: 2em 2em  ;
+  border-radius: 10px;
+  color: #ffffffcf;
+}
+.contact-container h2 {
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;  
+}
+.contact-container p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+.contact-list {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1em;
+  padding: 1em;  
+}
+.contact-list h1{
+  margin-bottom: 1em;
+}
+.row-list h5{
+  align-items: baseline;
+  position: relative;
+  margin: 10px;
+}
+.NavLink-Contact {
+  text-decoration: none;
+  color: #ffffffcf;  
+}
+.NavLink-Contact:hover {
+  color: #0099ffcf;
+  opacity: 0.8;  
+}
+
+/* Project Page css */
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.project-card{
+  margin: auto;
+  margin: 1em;
+  height: 25em;
+}
+.project-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+}
+.project-icon{
+  height: 100%;
+  margin-top: 0.5em;
+  margin-inline: 4em;
+  margin-bottom: 1em;
+  color: #ffffffcf;  
+} 
+.project-icon:hover {
+  color: #f85700;
+  transform: scale(1.2)
+}
+
+/* Resume Page css */
+.aboutme-row{
+  padding: 20px;
+  
+}
+.aboutme-left-col{
+  text-align: left;
+  padding: 40px 20px 20px 20px;
+}
+.aboutme-lefthr{
+  border-top:3px solid #340094;
+  width: 60%;
+}
+.aboutme-p{
+  text-indent: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 10px;
+}
+.aboutme-right-col {
+  background-color: rgba(0, 0, 0, 0.755);
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: left;
+}
+
