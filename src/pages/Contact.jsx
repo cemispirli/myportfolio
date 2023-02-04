@@ -30,7 +30,7 @@ const Contact = () => {
 
                 <h5 style={{ fontFamily: 'Anton',left:"-1.4em"}}>
                   <FaPhoneSquareAlt style={{ fontSize: '35px',marginRight:"1rem"}} />
-                  <a href="tel:905066421448" className="NavLink-Contact">+90 506 642 14 48</a>                  
+                  <a href="tel:+905066421448" className="NavLink-Contact">+90 506 642 14 48</a>                  
                 </h5>              
             
                 <h5 style={{ fontFamily: 'Anton'}}>              
