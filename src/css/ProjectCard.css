@@ -1,0 +1,23 @@
+.project-card {
+  margin: auto;
+  margin: 1em;
+  height: 25em;
+}
+.project-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+}
+.project-icon {
+  height: 100%;
+  margin-top: 0.5em;
+  margin-inline: 4em;
+  margin-bottom: 1em;
+  color: #ffffffcf;
+}
+.project-icon:hover {
+  /* color: #f85700; */
+  transform: scale(1.4);
+  transition: 0.3s;
+}

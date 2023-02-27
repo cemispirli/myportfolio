@@ -3,6 +3,7 @@ import {Card } from 'react-bootstrap';
 import { NavLink} from 'react-bootstrap'
 import { FaGithubSquare } from 'react-icons/fa'
 import { MdOutlineLiveTv } from 'react-icons/md'
+import '../css/ProjectCard.css'
 
 
 const ProjectCard = ({project,id}) => {

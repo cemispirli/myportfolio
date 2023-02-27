@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+@import url("https://fonts.googleapis.com/css?family=Exo+2");
+
+.certi {
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+  max-height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.accordion {
+  max-width: 80%;
+  margin: 20px auto;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 0;
+  }
+  .accordion {
+    flex-direction: column;
+    height: 700px;
+  }
+}

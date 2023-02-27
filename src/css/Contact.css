@@ -1,0 +1,54 @@
+.contact-body {
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 100vh;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-container {
+    background-color: rgba(0, 0, 0, 0.484);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 65%;
+    padding-top: 1em;
+    margin: 2em 2em  ;
+    border-radius: 10px;
+    color: #ffffffcf;
+  }
+  .contact-container h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;  
+  }
+  .contact-container p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    padding-bottom: 1em;
+  }
+  .contact-list {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1em;
+    padding: 1em;  
+  }
+  .contact-list h1{
+    margin-bottom: 1em;
+  }
+  .row-list h5{
+    align-items: baseline;
+    position: relative;
+    margin: 10px;
+  }
+  .NavLink-Contact {
+    text-decoration: none;
+    color: #ffffffcf;  
+  }
+  .NavLink-Contact:hover {
+    color: #0099ffcf;
+    opacity: 0.8;  
+  }

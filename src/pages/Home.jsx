@@ -3,6 +3,7 @@ import { Col, Container, NavLink} from 'react-bootstrap'
 import { FaGithubSquare } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import profil from "../img/profil.png"
+import '../css/Home.css'
 
 const Home = () => {
   return (

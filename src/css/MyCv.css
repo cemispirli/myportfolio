@@ -1,0 +1,35 @@
+.containerCv {
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  min-height: 100vh;
+  max-height: 100%;
+}
+
+.cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+}
+.pdfpic {
+  width: 200px;
+  border: 2px solid #ffffffcf;
+  border-radius: 15px;
+}
+.link {
+  text-decoration: none;
+
+  text-transform: none;
+  color: #ffffffcf;
+}
+.link:hover {
+  color: #f9f9f9;
+  transform: scale(1.2);
+  transition-duration: 1.5s;
+}
+.word {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ff0000cf;
+  position: relative;
+  top: -30px;
+}

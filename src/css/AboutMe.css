@@ -1,0 +1,26 @@
+.aboutme-row{
+    padding: 20px;
+    
+  }
+  .aboutme-left-col{
+    text-align: left;
+    padding: 40px 20px 20px 20px;
+  }
+  .aboutme-lefthr{
+    border-top:3px solid #340094;
+    width: 60%;
+  }
+  .aboutme-p{
+    text-indent: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 10px;
+  }
+  .aboutme-right-col {
+    background-color: rgba(0, 0, 0, 0.755);
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  

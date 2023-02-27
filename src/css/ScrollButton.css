@@ -1,0 +1,15 @@
+.scroll-button {
+  position: fixed;
+  opacity: 0.3;
+  right: 15px;
+  bottom: 80px;
+  height: 20px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  color: #0648ff;
+}
+.scroll-button:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}

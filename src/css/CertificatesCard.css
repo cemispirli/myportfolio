@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+@import url("https://fonts.googleapis.com/css?family=Exo+2");
+
+.box {
+  position: relative;
+  transition: 0.7s;
+  z-index: 0;
+  margin-left: 20px;
+}
+
+.box:hover {
+  transform: scale(1.8);
+  transition: 0.7s;
+  z-index: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .box {
+    box-shadow: none;
+    margin-top: -5px;
+
+    margin-left: 0px;
+  }
+  .box:hover {
+    transform: scale(1.5);
+    z-index: 1;
+  }
+}

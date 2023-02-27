@@ -13,7 +13,7 @@ const data = [
     name: "Parallax Website",
     desc: "Basic parallax website to understand how it's made. This is a code along project.",
     category:"html-css",    
-    liveSite: "https://cemispirli.github.io/Parallax-Website//",
+    liveSite: "https://cemispirli.github.io/Parallax-Website/",
     gif:"https://raw.githubusercontent.com/cemispirli/Parallax-Website/master/paralax.gif",
     github: "https://github.com/cemispirli/Parallax-Website",
   },
@@ -175,7 +175,7 @@ const data = [
     name: "Language Cards",
     desc: "Simple app made to practice states.",
     category:"react",
-    liveSite: "https://cemispirli.github.io/language-cards//",
+    liveSite: "https://cemispirli.github.io/language-cards/",
     gif:"https://raw.githubusercontent.com/cemispirli/language-cards/master/languagecard.gif",
     github: "https://github.com/cemispirli/language-cards",
   },
@@ -242,6 +242,25 @@ const data = [
     gif:"https://raw.githubusercontent.com/cemispirli/BlogApp/master/djangoblogapp.gif",
     github: "https://github.com/cemispirli/BlogApp",
   },
+  {
+    id: 28,
+    name: "Turkey Weather App",
+    desc: "Weather App that uses React turkey ,redux ,redux toolkit, React Router and Open Weather API. You can search for a city and it will return you the weather data of that city. ",
+    category: "react",
+    liveSite: "https://weather-turkey.netlify.app/",
+    gif:"https://raw.githubusercontent.com/cemispirli/weather-turkey-map/master/Weather-turkey.gif",
+    github: "https://github.com/cemispirli/weather-turkey-map",
+  },
+  {
+    id: 29,
+    name: "Blog App with Firebase",
+    desc: "A blog app that uses firebase as server. You can add a post, delete a post, edit a post. ",
+    category: "react",
+    liveSite: "https://blog-app-with-firebase.netlify.app/",
+    gif:"https://raw.githubusercontent.com/cemispirli/capstone-project/master/Capstone-project.gif",
+    github: "https://github.com/cemispirli/capstone-project",
+  },
+  
 
 ];
 
