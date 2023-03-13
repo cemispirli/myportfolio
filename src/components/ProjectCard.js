@@ -9,11 +9,13 @@ import '../css/ProjectCard.css'
 const ProjectCard = ({project,id}) => {
   return (
     <div key={project.id} className="project-card">
-        <Card  style={{ width: '18rem',height:'25rem' }}>
+        <Card  style={{ width: '15rem',height:'22rem' }}>
             <Card.Img variant="top" src={project.gif} />
-            <Card.Body>
-                <Card.Title  >{project.name}</Card.Title>
-                <Card.Text style={{height:"7rem"}}>
+            <Card.Body style={{display:"flex", flexDirection:"column", justifyContent:"space-between", height:"100%"}} >
+                <Card.Title 
+                  >{project.name}</Card.Title>
+                <Card.Text style={{height:"5rem", fontSize:"0.7rem"
+              }}>
                 {project.desc.length > 100 ? project.desc.substring(0, 150) + "..." : project.desc }
                 </Card.Text>
                 <div className="project-links" >

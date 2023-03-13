@@ -1,4 +1,4 @@
-const data = [
+const projectsData = [
   {
     id: 1,
     name: "Survey Form Netflix",
@@ -55,7 +55,7 @@ const data = [
   },
   {
     id: 7,
-    name: "Bootstrap School Project",
+    name: "Bootstrap School",
     desc: "Made a four page application using HTML, CSS and Bootstrap. This is a code along project. Some degree of responsiveness is added.",
     category:"html-css",
     liveSite: "https://cemispirli.github.io/Bootstrap-Clarusway-School-Project/",
@@ -82,7 +82,7 @@ const data = [
   },
   {
     id: 10,
-    name: "Find The Number Game",
+    name: "The Number Game",
     desc: "Made a find the number game using HTML, CSS and JS. This is a code along project. Some degree of responsiveness is added.",
     category:"javascript",
     liveSite: "https://cemispirli.github.io/Find-The-Number-Game/",
@@ -189,7 +189,7 @@ const data = [
     github: "https://github.com/cemispirli/task-tracker",
   },{
     id: 22,
-    name: "Website Page With Router",
+    name: "Website Page& Router",
     desc: "Made a website page with react router. This is a code along project. Some degree of responsiveness is added.",
     category:"react",
     liveSite: "https://website-page-with-router.netlify.app/",
@@ -253,7 +253,7 @@ const data = [
   },
   {
     id: 29,
-    name: "Blog App with Firebase",
+    name: "Blog App & Firebase",
     desc: "A blog app that uses firebase as server. You can add a post, delete a post, edit a post. ",
     category: "react",
     liveSite: "https://blog-app-with-firebase.netlify.app/",
@@ -266,4 +266,4 @@ const data = [
 
 
 
-export default data;
+export default projectsData;
