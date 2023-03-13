@@ -17,23 +17,20 @@ const Projects = () => {
 
   const filteredData = projectsData.filter((project) => project.category === category).sort((a, b) => b.id - a.id)
 
-  const getProducts = async () => {
+  
+  useEffect(() => {
     setData(paginate(filteredData))
     setLoading(false)
-    // setCards(data[page])
-  }
- 
-  
+  }, [category, filteredData])
 
   useEffect(() => {
-    getProducts()
     setPage(0)
   }, [category])
 
   useEffect(() => {
     if (loading) return
     setCards(data[page])
-    // window.scrollTo({top: 0});
+    window.scrollTo({top: 0});
   }, [ loading, page, data])
 
 
