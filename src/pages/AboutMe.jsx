@@ -27,7 +27,7 @@ const AboutMe = () => {
           <h4 style={{ color: "#00000085" }}>Frontend Developer</h4>
           <hr className="aboutme-lefthr" />
           <p className="aboutme-p">
-            +1 years experienced in IT and an expert front end developer,
+            +2 years experienced in IT and an expert front end developer,
             interested in writing codes, skilled at developing complex
             solutions, creating responsive designs, possessing strong creative
             thinking skills, highly energetic and integrated with strong
@@ -40,8 +40,6 @@ const AboutMe = () => {
           </p>
           <hr className="aboutme-lefthr" />
 
-          <h5>Phone</h5>
-          <p>+(90) 506-642-14-48</p>
           <h5>Email</h5>
           <p>cemispirli08@gmail.com</p>
           <h5>Github</h5>
@@ -53,7 +51,27 @@ const AboutMe = () => {
 
           <Row>
             <Col xs={12} md={4}>
-              <h4 style={{ marginTop: "10px" }}>2022 - Present</h4>
+              <h4 style={{ marginTop: "10px" }}>2023 - Present</h4>
+            </Col>
+            <Col xs={12} md={8}>
+              <h4 style={{ marginTop: "10px" }}>JuniusTech</h4>
+              <p style={{ textAlign: "justify" }}>
+                Developed interactive, responsive and scalable frontend using
+                HTML5, CSS3, JavaScript ES6, React,Designing a website with
+                HTML, CSS, SASS(SCSS) and Bootstrap-5 codes,Support HTML and CSS
+                projects using JS Dom manipulation and event
+                listeners, State management applied using React States and
+                Redux, Studied on Version Control Systems(Git & Github),
+                Software Development Life Cycle (SDLC), Used SCRUM & Agile
+                methodologies and JIRA while working on individual & group
+                projects
+              </p>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col xs={12} md={4}>
+              <h4 style={{ marginTop: "10px" }}>2022 - 2023</h4>
             </Col>
             <Col xs={12} md={8}>
               <h4 style={{ marginTop: "10px" }}>Clarusway</h4>
@@ -85,21 +103,6 @@ const AboutMe = () => {
 
           <Row>
             <Col xs={12} md={4}>
-              <h4 style={{ marginTop: "10px" }}>2007 - 2011</h4>
-            </Col>
-            <Col xs={12} md={8}>
-              <h4 style={{ marginTop: "10px" }}>Turkish Military Academy</h4>
-              <p style={{ textAlign: "justify" }}>
-                Turkish Military Academy or traditionally known as Harbiye; It
-                is a military school in Ankara, which is the active officer
-                resource of the Turkish Land Forces, providing education at the
-                undergraduate level.
-              </p>
-            </Col>
-          </Row>
-
-          <Row>
-            <Col xs={12} md={4}>
               <h4 style={{ marginTop: "10px" }}>2021 - 2022</h4>
             </Col>
             <Col xs={12} md={8}>
@@ -113,6 +116,23 @@ const AboutMe = () => {
               </p>
             </Col>
           </Row>
+
+          <Row>
+            <Col xs={12} md={4}>
+              <h4 style={{ marginTop: "10px" }}>2007 - 2011</h4>
+            </Col>
+            <Col xs={12} md={8}>
+              <h4 style={{ marginTop: "10px" }}>Turkish Military Academy</h4>
+              <p style={{ textAlign: "justify" }}>
+                Turkish Military Academy or traditionally known as Harbiye; It
+                is a military school in Ankara, which is the active officer
+                resource of the Turkish Land Forces, providing education at the
+                undergraduate level.
+              </p>
+            </Col>
+          </Row>
+
+          
 
           <hr style={{ borderTop: "3px solid #e22947" }} />
 
@@ -164,7 +184,7 @@ const AboutMe = () => {
             <Col xs={8} md={8}>
               <ProgressBar
                 style={{ margin: "auto", width: "100%" }}
-                now={40}
+                now={80}
                 animated
               />
             </Col>

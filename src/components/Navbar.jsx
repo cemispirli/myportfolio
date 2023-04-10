@@ -24,7 +24,7 @@ const Navbarx = () => {
             <NavLink className='ms-5 active'style={navstyle} onClick={() => setExpanded(expanded & false)} to="/">Home</NavLink>
             <NavLink className='ms-5 active'style={navstyle} onClick={() => setExpanded(expanded & false)} to="aboutme" >About Me</NavLink>
             <NavLink className='ms-5 active'style={navstyle} onClick={() => setExpanded(expanded & false)} to="projects" >Projects</NavLink>
-            <NavLink className='ms-5 active'style={navstyle} onClick={() => setExpanded(expanded & false)} to="MyCv" >My Cv</NavLink>
+            {/* <NavLink className='ms-5 active'style={navstyle} onClick={() => setExpanded(expanded & false)} to="MyCv" >My Cv</NavLink> */}
             <NavLink className='ms-5 active'style={navstyle} onClick={() => setExpanded(expanded & false)} to="Certificates" >Certificates</NavLink>
             <NavLink className='ms-5 active'style={navstyle} onClick={() => setExpanded(expanded & false)} to="contact" >Contact</NavLink>
           </Nav>
