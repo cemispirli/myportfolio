@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col,Container,Row } from 'react-bootstrap'
-import { FaPhoneSquareAlt } from 'react-icons/fa'
+// import { FaPhoneSquareAlt } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 import profil from "../img/profil.png"
 import '../css/Contact.css'
