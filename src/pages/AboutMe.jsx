@@ -57,14 +57,25 @@ const AboutMe = () => {
               <h4 style={{ marginTop: "10px" }}>JuniusTech</h4>
               <p style={{ textAlign: "justify" }}>
                 Developed interactive, responsive and scalable frontend using
-                HTML5, CSS3, JavaScript ES6, React,Designing a website with
-                HTML, CSS, SASS(SCSS) and Bootstrap-5 codes,Support HTML and CSS
-                projects using JS Dom manipulation and event
-                listeners, State management applied using React States and
-                Redux, Studied on Version Control Systems(Git & Github),
-                Software Development Life Cycle (SDLC), Used SCRUM & Agile
-                methodologies and JIRA while working on individual & group
-                projects
+                HTML5, CSS3, JavaScript ES6, React, Designing a website with
+                HTML, CSS, SASS(SCSS) and Bootstrap-5 codes, Support HTML and
+                CSS projects using JS Dom manipulation and event listeners,
+                Developing the payment page of the e-commerce website with JS
+                functions using DOM, iterator, callback functions, string array
+                functions and events, Requesting apis using Async, Await and
+                Fetch structures to view data from various platforms, Enabling
+                customers to make transactions on their websites using json,
+                local storage, and array methods, Using state hook and component
+                structures in various projects Working with React-router,
+                bootstrap and axios libraries for user-friendly preparation of
+                prepared websites, Combined Material UI and Semantic UI
+                libraries to achieve better UI experience, State management
+                applied using React States and Redux, Experienced in writing
+                modular and reusable codes, using build tools and package
+                managers, Studied on Computational Thinking, Operating Systems,
+                Linux, Version Control Systems(Git & Github), Software
+                Development Life Cycle (SDLC), Used SCRUM & Agile methodologies
+                and JIRA while working on individual & group projects.
               </p>
             </Col>
           </Row>
@@ -76,25 +87,19 @@ const AboutMe = () => {
             <Col xs={12} md={8}>
               <h4 style={{ marginTop: "10px" }}>Clarusway</h4>
               <p style={{ textAlign: "justify" }}>
-                Developed interactive, responsive and scalable frontend using
-                HTML5, CSS3, JavaScript ES6, React,Designing a website with
-                HTML, CSS, SASS(SCSS) and Bootstrap-5 codes,Support HTML and CSS
-                projects using JS Dom manipulation and event
-                listeners,Developing the payment page of the e-commerce website
-                with JS functions using DOM, iterator, callback functions,
-                string array functions and events,Requesting apis using Async,
-                Await and Fetch structures to view data from various
-                platforms,Enabling customers to make transactions on their
-                websites using json, local storage, and array methods,Using
-                state hook and component structures in various projects Working
-                with React-router, bootstrap and axios libraries for
-                user-friendly preparation of prepared websites, Combined
-                Material UI and Semantic UI libraries to achieve better UI
-                experience, State management applied using React States and
-                Redux, Studied on Version Control Systems(Git & Github),
-                Software Development Life Cycle (SDLC), Used SCRUM & Agile
-                methodologies and JIRA while working on individual & group
-                projects
+                Working with HTML5, CSS3, JavaScript ES6, React, Designed NavBar
+                utilizing Private and Public Router, Transition of data from
+                page to page implemented by Context API, CRUD
+                operations/functions developed to handle HTTP request and
+                responses to communicate DB, Authentication handled using
+                Firebase.js and helper functions, Experienced applying React
+                functional and class components, Continuous Integration (CI)
+                applied with Github-Firebase-Heroku, Developed interactive,
+                responsive and scalable frontend applications using HTML5, CSS3,
+                JavaScript ES6, React, Git@Github, Developed the application for
+                responsive to different screen resolutions using Bootstrap and
+                CSS media queries, Used SCRUM & Agile methodologies and JIRA
+                while working on individual & group projects.
               </p>
             </Col>
           </Row>
@@ -131,8 +136,6 @@ const AboutMe = () => {
               </p>
             </Col>
           </Row>
-
-          
 
           <hr style={{ borderTop: "3px solid #e22947" }} />
 
