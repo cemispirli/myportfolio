@@ -50,10 +50,10 @@ const AboutMe = () => {
           <h2>Experience</h2>
 
           <Row>
-            <Col xs={12} md={4}>
+            <Col xs={12} md={3}>
               <h4 style={{ marginTop: "10px" }}>2023 - Present</h4>
             </Col>
-            <Col xs={12} md={8}>
+            <Col xs={12} md={9}>
               <h4 style={{ marginTop: "10px" }}>JuniusTech</h4>
               <p style={{ textAlign: "justify" }}>
                 Developed interactive, responsive and scalable frontend using
@@ -81,10 +81,10 @@ const AboutMe = () => {
           </Row>
 
           <Row>
-            <Col xs={12} md={4}>
+            <Col xs={12} md={3}>
               <h4 style={{ marginTop: "10px" }}>2022 - 2023</h4>
             </Col>
-            <Col xs={12} md={8}>
+            <Col xs={12} md={9}>
               <h4 style={{ marginTop: "10px" }}>Clarusway</h4>
               <p style={{ textAlign: "justify" }}>
                 Working with HTML5, CSS3, JavaScript ES6, React, Designed NavBar
@@ -107,10 +107,10 @@ const AboutMe = () => {
           <h2>Education</h2>
 
           <Row>
-            <Col xs={12} md={4}>
+            <Col xs={12} md={3}>
               <h4 style={{ marginTop: "10px" }}>2021 - 2022</h4>
             </Col>
-            <Col xs={12} md={8}>
+            <Col xs={12} md={9}>
               <h4 style={{ marginTop: "10px" }}>Clarusway</h4>
               <p style={{ textAlign: "justify" }}>
                 Clarusway is a Virginia-based IT training school specializing in
@@ -122,11 +122,11 @@ const AboutMe = () => {
             </Col>
           </Row>
 
-          <Row>
-            <Col xs={12} md={4}>
+          {/* <Row>
+            <Col xs={12} md={3}>
               <h4 style={{ marginTop: "10px" }}>2007 - 2011</h4>
             </Col>
-            <Col xs={12} md={8}>
+            <Col xs={12} md={9}>
               <h4 style={{ marginTop: "10px" }}>Turkish Military Academy</h4>
               <p style={{ textAlign: "justify" }}>
                 Turkish Military Academy or traditionally known as Harbiye; It
@@ -135,17 +135,17 @@ const AboutMe = () => {
                 undergraduate level.
               </p>
             </Col>
-          </Row>
+          </Row> */}
 
           <hr style={{ borderTop: "3px solid #e22947" }} />
 
           <h2>Skills</h2>
 
           <Row>
-            <Col xs={4} md={4}>
+            <Col xs={4} md={3}>
               <h5>React</h5>
             </Col>
-            <Col xs={8} md={8}>
+            <Col xs={8} md={9}>
               <ProgressBar
                 style={{ margin: "auto", width: "100%" }}
                 now={100}
@@ -155,10 +155,10 @@ const AboutMe = () => {
           </Row>
 
           <Row>
-            <Col xs={4} md={4}>
+            <Col xs={4} md={3}>
               <h5>Javascript</h5>
             </Col>
-            <Col xs={8} md={8}>
+            <Col xs={8} md={9}>
               <ProgressBar
                 style={{ margin: "auto", width: "100%" }}
                 now={100}
@@ -168,10 +168,10 @@ const AboutMe = () => {
           </Row>
 
           <Row>
-            <Col xs={4} md={4}>
+            <Col xs={4} md={3}>
               <h5>Html-Css</h5>
             </Col>
-            <Col xs={8} md={8}>
+            <Col xs={8} md={9}>
               <ProgressBar
                 style={{ margin: "auto", width: "100%" }}
                 now={100}
@@ -181,10 +181,10 @@ const AboutMe = () => {
           </Row>
 
           <Row>
-            <Col xs={4} md={4}>
+            <Col xs={4} md={3}>
               <h5>Django</h5>
             </Col>
-            <Col xs={8} md={8}>
+            <Col xs={8} md={9}>
               <ProgressBar
                 style={{ margin: "auto", width: "100%" }}
                 now={80}

@@ -20,9 +20,9 @@ function App() {
       <Navbarx/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="aboutme" element={<AboutMe/>} />
-        <Route path="Projects" element={<Projects />} />
-        <Route path="MyCv" element={<MyCv />} />
+        <Route path="/aboutme" element={<AboutMe/>} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/MyCv" element={<MyCv />} />
         <Route path="Certificates" element={<Certificates />} />
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
